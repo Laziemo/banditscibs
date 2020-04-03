@@ -11,5 +11,5 @@ Write programs to work well together.
 
 Write programs that handle text streams, because that is a univeral interface.
 
-##### Always reads befores executes
+##### Reads befores executes
 ##### Hav fun with the scribs.
