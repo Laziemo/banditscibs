@@ -1,0 +1,18 @@
+## Submission Guidelines:
+
+- Be verbose and clear in naming
+- Keep commits focussed
+
+[Salus94]
+
+Write programs that do one thing, and do it well.
+
+Write programs to work well together.
+
+Write programs that handle text streams, because that is a univeral interface.
+
+
+* Attempt as many sanity checks and error handles as possible. Create generalized sanity checks at system/sanity.
+
+
+### For any further queries, contact: vishalmenon.92@gmail.com
