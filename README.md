@@ -7,8 +7,8 @@ Submission Guidelines:
 
 - Check all inputs and provide correct usage details
 - Handle as many errors as possible
-- Align to Unix fundamentals
 - Use verbose naming schemes
+- Align to Unix fundamentals
 
 [Salus94]
 
