@@ -1,5 +1,6 @@
 #!/bin/bash
 
+bash ../system/get_debian_basics.sh
 
 if [ $# -lt 1 ]
 then
