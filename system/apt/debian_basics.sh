@@ -11,6 +11,7 @@ sudo apt-get install \
     curl \
     gnupg2 \
     software-properties-common \
-    dirmngr
+    dirmngr \
+    unzip
 
 exit 0
