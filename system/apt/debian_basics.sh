@@ -12,6 +12,7 @@ sudo apt-get install \
     gnupg2 \
     software-properties-common \
     dirmngr \
-    unzip
+    unzip \
+    git
 
 exit 0
