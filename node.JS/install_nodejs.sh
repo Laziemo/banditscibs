@@ -10,5 +10,5 @@ curl -sL https://deb.nodesource.com/setup_"$1".x | sudo -E bash -
 
 printf "\n!!!Requiring root permission to install node.js\n\n"
 sudo apt-get install -y nodejs
-
+sudo npm install -g typescript
 exit 0
