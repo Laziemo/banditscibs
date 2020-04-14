@@ -6,7 +6,7 @@
 
 if [ $# -lt 1 ]
 then
- printf "\nWrong Usage: Not enough arguments.\nusage:\n./generate_ssl_certs.sh url \nRegister and host a domain name (via namecheap/cloudflare) to resolve to this server's IP and use this name as <url> example.sats.cc\n\n\n"
+ printf "\nWrong Usage: Not enough arguments.\nusage:\n./generate_ssl_certs.sh url \nRegister and host a domain name (with namecheap/cloudflare) to resolve to this server's IP: use system/network/get_ip.sh to get your IP address\n\n\n"
  exit 1
 fi
 
