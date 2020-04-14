@@ -22,5 +22,5 @@ echo "Creating /data/db to store mongo data"
 sudo mkdir /data/
 sudo mkdir /data/db
 
-
+echo "Use monogod.example.conf @ /etc/mongod.conf"
 exit 0

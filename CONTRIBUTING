@@ -16,7 +16,7 @@ Write programs that handle text streams, because that is a univeral interface.
 
 * Attempt as many sanity checks and error handles as possible. Create generalized sanity checks at system/sanity.
 
-* Scipts are primarily written in BASH, since it is native to all systems and does not require additional software.
+* Scipts are primarily written in BASH, since it is native to all systems and does not require additional runtimes.
 
 * Other languages have dedicated folders with installation scripts.
 
