@@ -1,7 +1,10 @@
 ## Submission Guidelines:
 
-- Be verbose and clear in naming
-- Keep commits focussed
+- Be verbose and clear in naming directories, files, functions and variables.
+
+- Limit scribs to perform specific tasks. 
+
+- Use macro folder for multi-task scrib chaining scribs. 
 
 # ------------------ '(◣ ◢)' ---------------------
 [Salus94]
@@ -14,11 +17,13 @@ Write programs that handle text streams, because that is a univeral interface.
 
 # ------------------ '(◣ ◢)' ---------------------
 
+Would be nice if,
+
 * Attempt as many sanity checks and error handles as possible. Create generalized sanity checks at system/sanity.
 
-* Scipts are primarily written in BASH, since it is native to all systems and does not require additional runtimes.
+* Scribs are in bash. If not PLEASE create sub-directories for srcibs within the language's folder.
 
-* Other languages have dedicated folders with installation scripts.
+* Tests?
 
 # ------------------ '(◣ ◢)' ---------------------
 
