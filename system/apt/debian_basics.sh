@@ -13,6 +13,7 @@ sudo apt-get install \
     software-properties-common \
     dirmngr \
     unzip \
-    git
+    git \
+    expect
 
 exit 0
