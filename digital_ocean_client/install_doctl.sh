@@ -9,9 +9,11 @@ then
  exit 1
 fi
 
+FILE=doctl-$1-linux-amd64.tar.gz
 cd $HOME
-curl -sL https://github.com/digitalocean/doctl/releases/download/v"$1"/doctl-"$1"-linux-amd64.tar.gz | tar -xzv && \
+curl -OL https://github.com/digitalocean/doctl/releases/download/v$1/$FILE
+tar -xvzf $FILE && rm $FILE
 printf "\nRequiring root permissions to move doctl binary to /usr/local/bin\n\n"
-sudo mv ~/doctl /usr/local/bin
-doctl
+sudo mv doctl /usr/local/bin
+#doctl
 exit 0
