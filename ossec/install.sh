@@ -7,7 +7,7 @@ then
  exit 1
 fi
 
-VERSION="$1"
+VERSION=$1
 export PCRE2_SYSTEM=yes
 
 apt-get update
