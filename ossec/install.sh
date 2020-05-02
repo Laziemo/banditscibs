@@ -10,8 +10,8 @@ fi
 VERSION="$1"
 export PCRE2_SYSTEM=yes
 
-sudo apt-get update
-sudo apt-get install gcc \
+apt-get update
+apt-get install gcc \
 libevent-dev libpcre2-dev zlib1g-dev libssl-dev \
 php php-cli php-common \
 libapache2-mod-php apache2-utils \
@@ -29,8 +29,6 @@ rm -rf ossec-hids-$VERSION.tar.gz.asc OSSEC-ARCHIVE-KEY.asc
 
 tar -xvf $VERSION.tar.gz && \
 rm -rf $VERSION.tar.gz
-
-
 
 cd ossec-hids-$VERSION && \
 ./install.sh
