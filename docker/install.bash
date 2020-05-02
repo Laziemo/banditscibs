@@ -14,7 +14,7 @@ OS=$1
 
 apt update
 
-curl -fsSL https://download.docker.com/linux/$OS/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/$OS/gpg | apt-key add -
 
 apt-key fingerprint 0EBFCD88
 
