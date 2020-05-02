@@ -9,8 +9,8 @@ then
 fi
 
 
-USER='$2'
-OS='$1'
+USER=$2
+OS=$1
 
 apt update
 
