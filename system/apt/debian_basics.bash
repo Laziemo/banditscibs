@@ -9,6 +9,7 @@ apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
+    wget \
     gnupg2 \
     software-properties-common \
     dirmngr \
