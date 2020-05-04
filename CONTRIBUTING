@@ -4,8 +4,11 @@
 
 - Limit scribs to perform specific tasks. 
 
-- Use macro folder for multi-task scrib chaining scribs. 
-
+- Follow commit name format: 
+	REASON normal commit description
+	eg: TO FURTHER SPECIALIZE removed AddUser function from install scrib and created new AddUser scrib.
+	    TO FIX BUG changed something from this to that
+	    CUZ added new scrib	
 # ------------------ '(◣ ◢)' ---------------------
 [Salus94]
 
