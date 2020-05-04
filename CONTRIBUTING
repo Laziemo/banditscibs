@@ -5,10 +5,14 @@
 - Limit scribs to perform specific tasks. 
 
 - Follow commit name format: 
-	REASON normal commit description
-	eg: TO FURTHER SPECIALIZE removed AddUser function from install scrib and created new AddUser scrib.
-	    TO FIX BUG changed something from this to that
-	    CUZ added new scrib	
+	format: 
+		REASON normal COMMIT De$criptioN?
+	eg: 
+		TO FURTHER SPECIALIZE removed AddUser function from install scrib and created new AddUser scrib.
+		FOR FIX BREAKING SCRIB  changed something from this to that
+		CUZ added new scrib	
+	full_eg: 
+		git commit -am "CUZ hope it helps"
 # ------------------ '(◣ ◢)' ---------------------
 [Salus94]
 
