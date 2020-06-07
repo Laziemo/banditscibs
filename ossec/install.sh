@@ -10,13 +10,14 @@ fi
 VERSION=$1
 export PCRE2_SYSTEM=yes
 
-apt-get update
-apt-get install gcc \
-libevent-dev libpcre2-dev zlib1g-dev libssl-dev \
-php php-cli php-common \
-libapache2-mod-php apache2-utils \
-sendmail \
-inotify-tools \
+apt-get update 
+apt-get install -y \
+ gcc \
+ libevent-dev libpcre2-dev zlib1g-dev libssl-dev \
+ php php-cli php-common \
+ libapache2-mod-php apache2-utils \
+ sendmail \
+ inotify-tools \
 
 wget https://www.atomicorp.com/OSSEC-ARCHIVE-KEY.asc
 gpg --import OSSEC-ARCHIVE-KEY.asc
