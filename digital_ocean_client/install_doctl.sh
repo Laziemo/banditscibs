@@ -14,6 +14,6 @@ cd $HOME
 curl -OL https://github.com/digitalocean/doctl/releases/download/v$1/$FILE
 tar -xvzf $FILE && rm $FILE
 printf "\nRequiring root permissions to move doctl binary to /usr/local/bin\n\n"
-sudo mv doctl /usr/local/bin
+mv doctl /usr/local/bin
 #doctl
 exit 0
