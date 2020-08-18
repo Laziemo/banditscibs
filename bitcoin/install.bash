@@ -25,5 +25,4 @@ set -ex \
   && tar -xzf *.tar.gz -C /opt \
   && rm *.tar.gz *.asc
 
-mv /opt/bitcoin-${BITCOIN_VERSION}/bin/bitcoind /bin
-mv /opt/bitcoin-${BITCOIN_VERSION}/bin/bitcoin-cli /bin
+mv /opt/bitcoin-${BITCOIN_VERSION}/bin/* /bin/
