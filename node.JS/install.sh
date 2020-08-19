@@ -11,9 +11,6 @@ curl -sL https://deb.nodesource.com/setup_"$1".x | sudo -E bash -
 printf "\n!!!Requiring root permission to install node.js\n\n"
 apt-get install -y nodejs
 
-npm install -g typescript
-npm install -g ts-node
-npm install -g pm2
-
+npm install -g typescript ts-node mocha chai pm2
 
 exit 0
