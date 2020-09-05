@@ -10,7 +10,7 @@ echo "Importing Monogo PGP for apt"
 
 wget -qO - https://www.mongodb.org/static/pgp/server-$1.asc | sudo apt-key add -
 
-echo "deb http://repo.mongodb.org/apt/ubuntu focal/mongodb-org/$1 main" | sudo tee /etc/apt/sources.list.d/mongodb-org.list
+echo "deb http://repo.mongodb.org/apt/debian buster/mongodb-org/$1 main" | sudo tee /etc/apt/sources.list.d/mongodb-org.list
 
 sudo apt-get update
 echo "Installing mongodB"
