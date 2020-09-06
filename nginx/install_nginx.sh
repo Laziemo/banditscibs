@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#the easiest of scribs
+wget https://nginx.org/download/nginx-1.10.1.tar.gz
+tar -xvf nginx-1.10.1.tar.gz
+cd nginx-1.10.1
+./configure
+make
+make install
 
-sudo apt-get install nginx
+mv /usr/local/nginx /usr/bin/nginx
 
 echo "Use nginx.example.conf @ /etc/nginx/nginx.conf"
