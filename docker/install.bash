@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # Install docker on debian
-
+USER=$1
 
 apt-get update
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
@@ -21,4 +21,5 @@ curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compo
 
 chmod +x /usr/bin/docker-compose
 usermod -aG docker $USER
+
 exit 0
